@@ -39,14 +39,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		662E4F3880722E0B22D02942 /* Pods-RMPSecureAuth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPSecureAuth_Example.debug.xcconfig"; path = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		861DA499FCCE7618FFFAC979 /* RMPSecureAuth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RMPSecureAuth.podspec; path = ../RMPSecureAuth.podspec; sourceTree = "<group>"; };
+		861DA499FCCE7618FFFAC979 /* RMPSecureAuth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMPSecureAuth.podspec; path = ../RMPSecureAuth.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C501F929E9B1FF58204EC548 /* Pods-RMPSecureAuth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPSecureAuth_Tests.release.xcconfig"; path = "Target Support Files/Pods-RMPSecureAuth_Tests/Pods-RMPSecureAuth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C51ED79C0507F0A5EA6A422E /* Pods-RMPSecureAuth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPSecureAuth_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RMPSecureAuth_Tests/Pods-RMPSecureAuth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFC5FF46818B55085CA0815C /* Pods_RMPSecureAuth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMPSecureAuth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D344EB76B2BAB9BC4CB3BCB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D344EB76B2BAB9BC4CB3BCB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DFAE2BE18AE899EBBD9F9B5D /* Pods_RMPSecureAuth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMPSecureAuth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB36A1A4BBFDC65EC6CFFF6 /* Pods-RMPSecureAuth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPSecureAuth_Example.release.xcconfig"; path = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F65A22A9B74C8DAEB77D7EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F65A22A9B74C8DAEB77D7EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				C51ED79C0507F0A5EA6A422E /* Pods-RMPSecureAuth_Tests.debug.xcconfig */,
 				C501F929E9B1FF58204EC548 /* Pods-RMPSecureAuth_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -313,11 +312,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RMPSecureAuth/RMPSecureAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMPSecureAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
