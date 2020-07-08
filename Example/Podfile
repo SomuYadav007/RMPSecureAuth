@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RMPSecureAuth_Example' do
+  pod 'RMPSecureAuth', :path => '../'
+
+  target 'RMPSecureAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
