@@ -1,0 +1,27 @@
+PODS:
+  - AppAuth (1.2.0):
+    - AppAuth/Core (= 1.2.0)
+    - AppAuth/ExternalUserAgent (= 1.2.0)
+  - AppAuth/Core (1.2.0)
+  - AppAuth/ExternalUserAgent (1.2.0)
+  - RMPSecureAuth (0.1.0):
+    - AppAuth (~> 1.2.0)
+
+DEPENDENCIES:
+  - RMPSecureAuth (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+
+EXTERNAL SOURCES:
+  RMPSecureAuth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
+  RMPSecureAuth: e4fafd916157fc324f488da1e7c5c1d5985c6201
+
+PODFILE CHECKSUM: 390367476d03b237bd06f2f39ddab7eebbbd7229
+
+COCOAPODS: 1.9.1

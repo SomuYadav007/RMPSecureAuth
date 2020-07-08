@@ -1,0 +1,6 @@
+framework module RMPSecureAuth {
+  umbrella header "RMPSecureAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
