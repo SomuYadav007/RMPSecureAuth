@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RMPSecureAuth'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'AppAuth Extension According Authentication Requirements.'
 
 # This description is used to generate tags and improve search results.
