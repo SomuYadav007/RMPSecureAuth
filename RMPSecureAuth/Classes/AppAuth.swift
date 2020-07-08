@@ -34,7 +34,7 @@ open class AppAuth: NSObject {
     public typealias completionHandler = (_ Success: Bool) -> Void
     public typealias completionAuthorizationFlow = (OIDExternalUserAgentSession) -> Void
     
-    public init(_ clientID: String,_ clientSecret: String,_ redirectURI: String,_ authorization_scope: String,_ registration_endpoint_uri: String,_ user_info_endpoint_uri: String,_ issuer: URL,_ authorizationEndpoint: URL,_ tokenEndpoint: URL,_ endSessionPointsURL: String,_ configuration: OIDServiceConfiguration) {
+    public init(_ clientID: String,_ clientSecret: String,_ redirectURI: String,_ authorization_scope: String,_ registration_endpoint_uri: String,_ user_info_endpoint_uri: String,_ issuer: URL,_ authorizationEndpoint: URL,_ tokenEndpoint: URL,_ endSessionPointsURL: String) {
         self.clientID                  = clientID
         self.clientSecret              = clientSecret
         self.redirectURI               = redirectURI
@@ -45,6 +45,6 @@ open class AppAuth: NSObject {
         self.authorizationEndpoint     = authorizationEndpoint
         self.tokenEndpoint             = tokenEndpoint
         self.endSessionPointsURL       = endSessionPointsURL
-        self.configuration             = configuration
+        self.configuration             = OIDServiceConfiguration(authorizationEndpoint: authorizationEndpoint,tokenEndpoint: tokenEndpoint)
     }
 }

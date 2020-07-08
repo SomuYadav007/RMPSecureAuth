@@ -107,7 +107,7 @@ extension AppAuth {
         })
     }
     
-    func getRefreshToken() -> String? {
+    public func getRefreshToken() -> String? {
         let userinfoEndpoint = URL(string: user_info_endpoint_uri!)!
         var token: String?
         AppAuth.authState?.performAction() { (accessToken, idToken, error) in

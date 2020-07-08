@@ -7,18 +7,37 @@
 //
 
 import UIKit
+import AppAuth
+import RMPSecureAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var currentAuthorizationFlow: OIDExternalUserAgentSession?
+    var app: AppAuth?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.app = AppAuth(clientID, clientSecret, redirectURI, authorization_scope, registration_endpoint_uri, user_info_endpoint_uri, issuer, authorizationEndpoint, tokenEndpoint, endSessionPointsURL)
         return true
     }
 
+    func application(_ app: UIApplication,
+                     open url: URL,
+                     options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        // Sends the URL to the current authorization flow (if any) which will
+        // process it if it relates to an authorization response.
+        if let authorizationFlow = self.currentAuthorizationFlow,
+            authorizationFlow.resumeExternalUserAgentFlow(with: url) {
+            self.currentAuthorizationFlow = nil
+            return true
+        }
+        
+        // Your additional URL handling (if any)
+        
+        return false
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

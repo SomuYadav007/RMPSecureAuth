@@ -42,7 +42,7 @@ extension AppAuth {
      * Reacts on authorization state changes events.
      *
      */
-    func stateChanged() {
+    public func stateChanged() {
         self.saveState()
     }
     
@@ -68,7 +68,7 @@ extension AppAuth {
      * As an example, the user's defaults database serves as the persistent storage.
      *
      */
-    func loadState() {
+    public func loadState() {
         guard let data = UserDefaults.standard.object(forKey: authStateKey) as? Data else {
             return
         }
@@ -93,7 +93,7 @@ extension AppAuth {
      * Displays selected information from the current authorization data.
      *
      */
-    func showState() {
+    public func showState() {
         print("Current authorization state: ")
         
         print("Access token: \(AppAuth.authState?.lastTokenResponse?.accessToken ?? "none")")
