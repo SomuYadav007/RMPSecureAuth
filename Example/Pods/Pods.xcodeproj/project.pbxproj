@@ -13,13 +13,10 @@
 		060B68640F4EED7E00C78A999EB7C944 /* OIDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BDB2F789F03D782DD5558A61102E1C /* OIDError.m */; };
 		07C6F72ED8133E793EEA5129DD857044 /* OIDExternalUserAgentIOSCustomBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C74F1A63853029FC5186AC191B3EB93D /* OIDExternalUserAgentIOSCustomBrowser.m */; };
 		0A297AE0D91F589C6094990D79450092 /* OIDTokenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 936C514728A57091FFE7EBFBBFE12A91 /* OIDTokenUtilities.m */; };
-		0C86659BF070CFF1A3AF55E08C9E03E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
 		0DE55562F173ECE28D7E293AADFE6238 /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E2F7C44419C056897C0FEE977FDD11 /* OIDRegistrationResponse.m */; };
 		0F17FF2FF43ADC7F1B32DB3073C7D415 /* OIDScopes.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F1A94DCC752DCA2CBC0443B925109F /* OIDScopes.m */; };
 		159D0CE9F87EDFE682093054FB612556 /* OIDEndSessionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D810124807F649AAF4DC94CBDF16541 /* OIDEndSessionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16D4209F73BE754B6927EA7F3ED1C4EB /* AppAuthRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267EBA75BD73C17395EC2976303C67F /* AppAuthRequestExtensions.swift */; };
 		17B3D1E0AE95D89E9729AA3F6DFF69F2 /* OIDAuthStateErrorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DD940F06EF55A7A9BBD700C77046A6 /* OIDAuthStateErrorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17F309C488AFC75DA6D5BF0FF2AB5C25 /* AppAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF5541D05E8F78E73C2DF10E562F02 /* AppAuth.swift */; };
 		26376854269D85E3AAC2E60C1D385AF8 /* OIDAuthorizationService+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BF76AF8AE83F8D75AA73012E96E658 /* OIDAuthorizationService+IOS.m */; };
 		2AC9E284BA1C7E5C1E6CABD9074F2A7F /* OIDTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 136F752A44C99905BE3CEE942E094065 /* OIDTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		304A7501CAB08B1C85C59DFB913B8031 /* OIDExternalUserAgentIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8414120BCE84FF3130EB71493B5EE /* OIDExternalUserAgentIOS.m */; };
@@ -28,13 +25,11 @@
 		46AC27493938FC8F7328A44FF6AF6D39 /* OIDResponseTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED11A7A13EF173F272753ABEDB5EE95 /* OIDResponseTypes.m */; };
 		46CA4EAC7947AE7B627FE481481CC80D /* OIDExternalUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = C02193EED25116B67C64074FCA7501EE /* OIDExternalUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4860D8DBA5C818195983556219C18231 /* AppAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C076F1DD328FA00C31B08A17F22898 /* AppAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A575FE66A9212E3CFD5DC8CF4321511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
 		4AB98EF654C18FE99C8511F263081E9F /* OIDClientMetadataParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 83660A2950146DD8479DB48264639255 /* OIDClientMetadataParameters.m */; };
-		561967B3997BAB9F3069E8716C61DF0D /* Pods-RMPSecureAuth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEAB6FBA474078B8921721425BBF13A /* Pods-RMPSecureAuth_Example-dummy.m */; };
 		57E0FF2D5D583AEC005DB484B7FCFCEE /* OIDEndSessionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 588EA56AC8765A32D6B9BB08837E4255 /* OIDEndSessionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57F56207557EB63C0942D589BF5317FD /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74A55FDCC28D3C86D2E15E7F39324A3 /* AppAuth.framework */; };
+		59679398C8A2D18C9BD06DEAF29C1ACE /* RMPSecureAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EAEF32746FEDE2BDEDAABA15C4945 /* RMPSecureAuth-dummy.m */; };
 		5ED505FD1C70BD69999423CD62CE1E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
-		600B346F9BE59660B5CF4DCB16247973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
-		618A2A51CB1CC9E660C007C48E9C9164 /* Pods-RMPSecureAuth_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD9EE729C9A5BF5C01DCB9497F9AEBD /* Pods-RMPSecureAuth_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64B210E126671B28A850DA4F8FDD2A57 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE83887F16072FD02D50F3843EAD305 /* SafariServices.framework */; };
 		64B259FD595FA2D28D160F99DA12284B /* OIDAuthorizationService+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC1BAEAC6365A228B8E58D8F78B7307 /* OIDAuthorizationService+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		652B6F1421A56DBE3DB8E6C44E5E4CF6 /* OIDAuthState+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F455A4541DED34643CEFCC84F7FB73 /* OIDAuthState+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,17 +37,14 @@
 		669300390D897F323D081D047B48EF46 /* OIDURLQueryComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 643ECF12211067A986CF66F5C65C4150 /* OIDURLQueryComponent.m */; };
 		6F599D41D90DBB4972D1F52A276F0FB4 /* OIDAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = C27CFC51019E43006F88DEE493BD0767 /* OIDAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77657727F7BAF325F1941D7919127AF8 /* AppAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D07C06D6C34CAD6AF62C237C3C9813F4 /* AppAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ABFF4662121A2319FB1F16EC25E47BB /* RMPSecureAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5044D46BBF8CDE8EE193AD1180DB4B8 /* RMPSecureAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E17F0D6BD92A519FD8AA57933AAD931 /* OIDRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A341455195172838CC9A43619F359892 /* OIDRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81B6125716133896D8B38FFBA3F58D13 /* Pods-RMPSecureAuth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DFDD445F2AA6BEC54918DA7A3838D6 /* Pods-RMPSecureAuth_Tests-dummy.m */; };
-		83065DBBC024097E74541CCC79F8EA90 /* Pods-RMPSecureAuth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E74E7D2C00372D3D0590CEDA36EC2EED /* Pods-RMPSecureAuth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		854AF7C62ED340892F1A68DD67D2D8C7 /* OIDAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 186330DFCD1F66B7F33CCA10E43B56DA /* OIDAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E169B76B9CF71B8311653B779C0029 /* RMPSecureAuth-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1779DF63F17D1485ADD2317AAFFDF0FF /* RMPSecureAuth-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86D7273688A76C951874FCB0F6083242 /* OIDRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0625EE33DD66771FC56C54BFB8F426F8 /* OIDRegistrationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		871AF7387A91A331561DE494ACD881AF /* AppAuthStateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECFFD7A2009AA3505FFBEC804444E59 /* AppAuthStateExtension.swift */; };
-		873ECE38898B18BE39AF0EBF8A6F8D7A /* RMPSecureAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF38855AB3EAC0ED6D6B3E6C179D14D /* RMPSecureAuth-dummy.m */; };
 		888638F7B24BD89DCE135FE4A15D3FD1 /* OIDRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 413EF4C7F56E497770A5503EC206008E /* OIDRegistrationRequest.m */; };
 		8D587EF1E8FDD39C8EE23953C977B806 /* OIDAuthState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0D3F6DBFE99632D8C7E2C836CDC316 /* OIDAuthState.m */; };
 		8E858E6085AEF65EA6F753CEA238C571 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C155F94C824C082E5683E5AC7124DF /* OIDExternalUserAgentIOSCustomBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9262A822E89EDC599908A4A89568299A /* Pods-RMPSecureAuth_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD9EE729C9A5BF5C01DCB9497F9AEBD /* Pods-RMPSecureAuth_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94646D5C9C7E0A0E5E30FC1E71C82007 /* OIDClientMetadataParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0EAC1B992135628466FA93E79F5A49 /* OIDClientMetadataParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C8CB167F9D38988D51D5A1AB61CC8B /* OIDGrantTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 334D36FC7556338A5978C9A7708F5E27 /* OIDGrantTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9580D5A831FA66F0E9D8D8901EB8227E /* OIDExternalUserAgentIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 015490AFD0AF21D8683146E7C0F26978 /* OIDExternalUserAgentIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,19 +59,23 @@
 		A33B0BB0C289FBFB731162A7686FCCC8 /* OIDFieldMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 00326EE8F7A6E65EA6CC20F62BF74434 /* OIDFieldMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA082950F15D1DF799B18F0218DCC401 /* OIDURLSessionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BB31388EDA3685082F506BC76FEB28 /* OIDURLSessionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC1E056714DCBBBC10650B7E9315C0CD /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 538F5F3AAD3544B08A15DDA357D01238 /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5906A99F642E6D88E1EA20630CA86F4 /* AppAuthStateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2548A800D49843C5D2B5C7CD208175 /* AppAuthStateExtension.swift */; };
 		B82054E8568AB3EA04AB1F28E5EE459C /* OIDEndSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B8DD18721929F8F5EB189199DA670B /* OIDEndSessionRequest.m */; };
 		BA2246C9AB92463DC7792801BB24EAAE /* OIDAuthStateChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2621ADFA0EBD2E83D2A966AEE87E36BC /* OIDAuthStateChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC79184D1F294A4C6A1E418E7BBCC3B0 /* OIDErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBEA3AA2FC77BDA2524C96851EDB518 /* OIDErrorUtilities.m */; };
+		BFC5742D26CAA64AAC711AD41A3BEA4F /* Pods-RMPSecureAuth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E74E7D2C00372D3D0590CEDA36EC2EED /* Pods-RMPSecureAuth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C02CB829D05256D5182CD4AB324F13A8 /* OIDEndSessionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF68AC6A9F7A9E940A6DD13D1C996A /* OIDEndSessionResponse.m */; };
-		C1325F8E8BDB5E8542CCFBF51DB61BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
 		C676DAABF5743BDACCEF573D21E59CBD /* OIDErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B6535B85C99B377DC378E85223DF24 /* OIDErrorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7ABDA08C5B757EBAEFCF907BD892D79 /* RMPSecureAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 433D2ED7AFD621897656E7D1D559B943 /* RMPSecureAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC20F51AA15902181CE76F838A98C82 /* OIDServiceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F8403C1B1F053E439C1B63A5D90BD0 /* OIDServiceDiscovery.m */; };
 		CF6B7B36AE7FD5CDECFFB971EE9E1B94 /* OIDAuthState+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837C7F576BDEC97723256ECB8B8CEE6 /* OIDAuthState+IOS.m */; };
 		D13BC11E094DF899F1529D79C4B0E8B8 /* AppAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347DD11A7285CC53D03A96AB27B611A /* AppAuth-dummy.m */; };
 		D5D71908233F3A416CA3A9206E0A6BDB /* OIDTokenUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB01F13EC9BA94AAEDE47AF39542DCC /* OIDTokenUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA333D8D68D796760A348C8C671CE0D4 /* OIDIDToken.h in Headers */ = {isa = PBXBuildFile; fileRef = D7699EE79E63BEB8F51BA0753F2319F2 /* OIDIDToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1AFC8C93144E1AC3A26AEC33E17E083 /* OIDServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1A353C9EEDC7083DB6F79465A4C301 /* OIDServiceConfiguration.m */; };
+		E3B3C46356CAE2C68C2727368C49748C /* AppAuthRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9076FBF75739AF22AF266BA8EB43EB1 /* AppAuthRequestExtensions.swift */; };
 		E3D8FD8E3AD50AE407EEFF7809A8723D /* OIDURLQueryComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F91B8FC60EFC6B4CB7083DD194B6CD /* OIDURLQueryComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69B2B3C0612355D63C125A2ADB0E80B /* Pods-RMPSecureAuth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEAB6FBA474078B8921721425BBF13A /* Pods-RMPSecureAuth_Example-dummy.m */; };
 		E7003873609335DC6A0200A8073824E6 /* OIDGrantTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BBFE9C0946C00DE0CF3C4696D55F1B /* OIDGrantTypes.m */; };
 		E7861CF9883DF208AA6B95E9F4D67809 /* OIDAuthState.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CC2178FF25C859639A6A8C9A5A10DD /* OIDAuthState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7ADB81A28880CCDBC53178E8FBAAE62 /* OIDDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DBF1E6BE171AE464448C9AC3B62A8BB /* OIDDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,32 +83,37 @@
 		EC96B1F5FCF87DBA9B534791D131E806 /* OIDAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB23067F52CB48C5C9223F1CDE2D07 /* OIDAuthorizationRequest.m */; };
 		ECFDA54B8795F45449C7954E3F0A24E6 /* OIDError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD9BD9ABCF33C5EE337EB3F15E5575A /* OIDError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0C94E34D73363BC3EE9DC94F3634A37 /* OIDScopeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C3E5EAA1EDA33F4CC4228789BE1B8 /* OIDScopeUtilities.m */; };
+		F2992F4A312C837AD4B484CAC8AACB5D /* AppAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3551D4C5BC25114A30E4A0E87706B5E /* AppAuth.swift */; };
 		F32855F7C82DE4AD355A17D4D3A7552A /* OIDExternalUserAgentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A767A1ABBDF0C766B44186B5E5ED97C /* OIDExternalUserAgentRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F458E0C4687491A3E390D151EA491D20 /* Pods-RMPSecureAuth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DFDD445F2AA6BEC54918DA7A3838D6 /* Pods-RMPSecureAuth_Tests-dummy.m */; };
+		FC7AE4361346350F2E9564FE010C14DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
+		FCAE456E1EA30124017A943CE599D58B /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74A55FDCC28D3C86D2E15E7F39324A3 /* AppAuth.framework */; };
+		FD62BF20F8524A3745E8E1CC4612DD28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5E3D7E016769D2863C08D32C4819F26 /* PBXContainerItemProxy */ = {
+		33C2C583736F9DE688F01EBB7CC12744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
+			remoteInfo = AppAuth;
+		};
+		79C34C817D8D6ED8EFE35C2C1EEE1250 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4602F35D67E656C108D7F3FF77F512F6;
 			remoteInfo = RMPSecureAuth;
 		};
-		BDC57F9DCC0DAEE5D47660F1B064886A /* PBXContainerItemProxy */ = {
+		95CD63EEE3D44EB06A4AEA361542DA5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
 			remoteInfo = AppAuth;
 		};
-		BEBD0198AAABF143831F99A3EF0941A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
-			remoteInfo = AppAuth;
-		};
-		C76985F28A131BD6552E038779B6CF9B /* PBXContainerItemProxy */ = {
+		EB45FE7F38C15843482E1F29ECAF8A8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -126,14 +127,15 @@
 		00326EE8F7A6E65EA6CC20F62BF74434 /* OIDFieldMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDFieldMapping.h; path = Source/OIDFieldMapping.h; sourceTree = "<group>"; };
 		015490AFD0AF21D8683146E7C0F26978 /* OIDExternalUserAgentIOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOS.h; path = Source/iOS/OIDExternalUserAgentIOS.h; sourceTree = "<group>"; };
 		0625EE33DD66771FC56C54BFB8F426F8 /* OIDRegistrationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationResponse.h; path = Source/OIDRegistrationResponse.h; sourceTree = "<group>"; };
-		092E54B92323581B77E395980266DAEE /* RMPSecureAuth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RMPSecureAuth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B0D3F6DBFE99632D8C7E2C836CDC316 /* OIDAuthState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthState.m; path = Source/OIDAuthState.m; sourceTree = "<group>"; };
+		0C5A93BEF2AA152087E70EBCA9FB99DE /* RMPSecureAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMPSecureAuth.modulemap; sourceTree = "<group>"; };
 		0DDEA479D6231DCB10925F2A1A2A3329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0EB01F13EC9BA94AAEDE47AF39542DCC /* OIDTokenUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenUtilities.h; path = Source/OIDTokenUtilities.h; sourceTree = "<group>"; };
 		136F752A44C99905BE3CEE942E094065 /* OIDTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenResponse.h; path = Source/OIDTokenResponse.h; sourceTree = "<group>"; };
 		13A713ADD79752D94E1818776C0B3E1E /* OIDIDToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDIDToken.m; path = Source/OIDIDToken.m; sourceTree = "<group>"; };
 		13BE934B2F71C6B5F23A83B004AA8DCB /* Pods-RMPSecureAuth_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMPSecureAuth_Example-Info.plist"; sourceTree = "<group>"; };
 		15B6535B85C99B377DC378E85223DF24 /* OIDErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDErrorUtilities.h; path = Source/OIDErrorUtilities.h; sourceTree = "<group>"; };
+		1779DF63F17D1485ADD2317AAFFDF0FF /* RMPSecureAuth-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMPSecureAuth-Bridging-Header.h"; path = "RMPSecureAuth/Classes/RMPSecureAuth-Bridging-Header.h"; sourceTree = "<group>"; };
 		180CAB23C835D1C64C766BF7F3123C14 /* OIDServiceDiscovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceDiscovery.h; path = Source/OIDServiceDiscovery.h; sourceTree = "<group>"; };
 		1837C7F576BDEC97723256ECB8B8CEE6 /* OIDAuthState+IOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthState+IOS.m"; path = "Source/iOS/OIDAuthState+IOS.m"; sourceTree = "<group>"; };
 		186330DFCD1F66B7F33CCA10E43B56DA /* OIDAuthorizationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationRequest.h; path = Source/OIDAuthorizationRequest.h; sourceTree = "<group>"; };
@@ -145,13 +147,11 @@
 		251C3E5EAA1EDA33F4CC4228789BE1B8 /* OIDScopeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopeUtilities.m; path = Source/OIDScopeUtilities.m; sourceTree = "<group>"; };
 		25BDB2F789F03D782DD5558A61102E1C /* OIDError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDError.m; path = Source/OIDError.m; sourceTree = "<group>"; };
 		2621ADFA0EBD2E83D2A966AEE87E36BC /* OIDAuthStateChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateChangeDelegate.h; path = Source/OIDAuthStateChangeDelegate.h; sourceTree = "<group>"; };
-		2758A9550888D568F175F8653066D02C /* RMPSecureAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMPSecureAuth.debug.xcconfig; sourceTree = "<group>"; };
 		29CC2178FF25C859639A6A8C9A5A10DD /* OIDAuthState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthState.h; path = Source/OIDAuthState.h; sourceTree = "<group>"; };
 		2AECC1170FA14C4516306F7199A94E88 /* OIDAuthorizationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationResponse.h; path = Source/OIDAuthorizationResponse.h; sourceTree = "<group>"; };
 		2DE83887F16072FD02D50F3843EAD305 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
 		2ECA597FF61BCE59969114F080ECF7B0 /* OIDServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceConfiguration.h; path = Source/OIDServiceConfiguration.h; sourceTree = "<group>"; };
 		2ED11A7A13EF173F272753ABEDB5EE95 /* OIDResponseTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDResponseTypes.m; path = Source/OIDResponseTypes.m; sourceTree = "<group>"; };
-		319DC0FFCFFAFCB86C9F9975AF896C89 /* RMPSecureAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMPSecureAuth.modulemap; sourceTree = "<group>"; };
 		32B8DD18721929F8F5EB189199DA670B /* OIDEndSessionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDEndSessionRequest.m; path = Source/OIDEndSessionRequest.m; sourceTree = "<group>"; };
 		334D36FC7556338A5978C9A7708F5E27 /* OIDGrantTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDGrantTypes.h; path = Source/OIDGrantTypes.h; sourceTree = "<group>"; };
 		34DD940F06EF55A7A9BBD700C77046A6 /* OIDAuthStateErrorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateErrorDelegate.h; path = Source/OIDAuthStateErrorDelegate.h; sourceTree = "<group>"; };
@@ -165,9 +165,13 @@
 		3FD1B4C1246D643E9476438C28048FA8 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppAuth.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		413EF4C7F56E497770A5503EC206008E /* OIDRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationRequest.m; path = Source/OIDRegistrationRequest.m; sourceTree = "<group>"; };
 		41DFDD445F2AA6BEC54918DA7A3838D6 /* Pods-RMPSecureAuth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMPSecureAuth_Tests-dummy.m"; sourceTree = "<group>"; };
+		433D2ED7AFD621897656E7D1D559B943 /* RMPSecureAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMPSecureAuth-umbrella.h"; sourceTree = "<group>"; };
 		4347DD11A7285CC53D03A96AB27B611A /* AppAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppAuth-dummy.m"; sourceTree = "<group>"; };
 		44F91B8FC60EFC6B4CB7083DD194B6CD /* OIDURLQueryComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLQueryComponent.h; path = Source/OIDURLQueryComponent.h; sourceTree = "<group>"; };
+		4623B576EA4E1E34F57342979477E586 /* RMPSecureAuth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RMPSecureAuth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B6EAEF32746FEDE2BDEDAABA15C4945 /* RMPSecureAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMPSecureAuth-dummy.m"; sourceTree = "<group>"; };
 		4BEAB6FBA474078B8921721425BBF13A /* Pods-RMPSecureAuth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMPSecureAuth_Example-dummy.m"; sourceTree = "<group>"; };
+		4EC8B513F926FBDE7D462BA15AC0B596 /* RMPSecureAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMPSecureAuth-Info.plist"; sourceTree = "<group>"; };
 		538F5F3AAD3544B08A15DDA357D01238 /* AppAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuth.h; path = Source/AppAuth.h; sourceTree = "<group>"; };
 		563D7AAC1C84708E1A3CB7BC37697F29 /* AppAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.debug.xcconfig; sourceTree = "<group>"; };
 		5688EB1518BB004904727E8A7475A53C /* Pods-RMPSecureAuth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMPSecureAuth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -177,6 +181,7 @@
 		59EBA26601299BA2A2F4AADBA0806E2C /* Pods-RMPSecureAuth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMPSecureAuth_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5AD9BD9ABCF33C5EE337EB3F15E5575A /* OIDError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDError.h; path = Source/OIDError.h; sourceTree = "<group>"; };
 		5D5A89BDA8CA912A3E28FB8ED6DCC36C /* OIDFieldMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDFieldMapping.m; path = Source/OIDFieldMapping.m; sourceTree = "<group>"; };
+		5E2548A800D49843C5D2B5C7CD208175 /* AppAuthStateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppAuthStateExtension.swift; path = RMPSecureAuth/Classes/AppAuthStateExtension.swift; sourceTree = "<group>"; };
 		5EAB661CA29CB100CF3D76966449903A /* AppAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-prefix.pch"; sourceTree = "<group>"; };
 		63DAF3379068B3303911F0184BB4E55C /* Pods-RMPSecureAuth_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RMPSecureAuth_Tests.modulemap"; sourceTree = "<group>"; };
 		643ECF12211067A986CF66F5C65C4150 /* OIDURLQueryComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLQueryComponent.m; path = Source/OIDURLQueryComponent.m; sourceTree = "<group>"; };
@@ -185,37 +190,36 @@
 		6A767A1ABBDF0C766B44186B5E5ED97C /* OIDExternalUserAgentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentRequest.h; path = Source/OIDExternalUserAgentRequest.h; sourceTree = "<group>"; };
 		6FD8414120BCE84FF3130EB71493B5EE /* OIDExternalUserAgentIOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOS.m; path = Source/iOS/OIDExternalUserAgentIOS.m; sourceTree = "<group>"; };
 		76BBFE9C0946C00DE0CF3C4696D55F1B /* OIDGrantTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDGrantTypes.m; path = Source/OIDGrantTypes.m; sourceTree = "<group>"; };
+		798512920CD4D0D2241AD6AB40BE7CBD /* RMPSecureAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMPSecureAuth-prefix.pch"; sourceTree = "<group>"; };
 		7A19DA957CDE3C5C771C577B8D8C4B01 /* Pods-RMPSecureAuth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMPSecureAuth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F7CFA8BA703866038767D75101E30CF /* Pods-RMPSecureAuth_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMPSecureAuth_Tests-Info.plist"; sourceTree = "<group>"; };
 		83660A2950146DD8479DB48264639255 /* OIDClientMetadataParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDClientMetadataParameters.m; path = Source/OIDClientMetadataParameters.m; sourceTree = "<group>"; };
+		8D2007A9DC81D9E8A7789B2BCB8231BA /* RMPSecureAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMPSecureAuth.release.xcconfig; sourceTree = "<group>"; };
+		8E5A0B80485B8E54BB6319E2AB31026E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8F0947B3323E83D90CA67A929B90B833 /* OIDResponseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDResponseTypes.h; path = Source/OIDResponseTypes.h; sourceTree = "<group>"; };
+		8FE8C1651E0314219A5B6079EE01D02A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		936C514728A57091FFE7EBFBBFE12A91 /* OIDTokenUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenUtilities.m; path = Source/OIDTokenUtilities.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EFF5541D05E8F78E73C2DF10E562F02 /* AppAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppAuth.swift; path = RMPSecureAuth/Classes/AppAuth.swift; sourceTree = "<group>"; };
 		A341455195172838CC9A43619F359892 /* OIDRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationRequest.h; path = Source/OIDRegistrationRequest.h; sourceTree = "<group>"; };
+		A3551D4C5BC25114A30E4A0E87706B5E /* AppAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppAuth.swift; path = RMPSecureAuth/Classes/AppAuth.swift; sourceTree = "<group>"; };
 		A74A55FDCC28D3C86D2E15E7F39324A3 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A770ABE76A8746A7FC8A1C5142741DA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9076FBF75739AF22AF266BA8EB43EB1 /* AppAuthRequestExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppAuthRequestExtensions.swift; path = RMPSecureAuth/Classes/AppAuthRequestExtensions.swift; sourceTree = "<group>"; };
 		AC1A353C9EEDC7083DB6F79465A4C301 /* OIDServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceConfiguration.m; path = Source/OIDServiceConfiguration.m; sourceTree = "<group>"; };
 		AF50EBAEF1DB20C503D8322CEFC28C02 /* OIDTokenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenRequest.h; path = Source/OIDTokenRequest.h; sourceTree = "<group>"; };
 		B15DF1B193D92310DC14C8D98071F414 /* OIDAuthorizationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationService.m; path = Source/OIDAuthorizationService.m; sourceTree = "<group>"; };
-		B267EBA75BD73C17395EC2976303C67F /* AppAuthRequestExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppAuthRequestExtensions.swift; path = RMPSecureAuth/Classes/AppAuthRequestExtensions.swift; sourceTree = "<group>"; };
 		B3AF68AC6A9F7A9E940A6DD13D1C996A /* OIDEndSessionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDEndSessionResponse.m; path = Source/OIDEndSessionResponse.m; sourceTree = "<group>"; };
-		B5777C2054356D75F72CE8D17B0990FE /* RMPSecureAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMPSecureAuth-Info.plist"; sourceTree = "<group>"; };
 		BAD9EE729C9A5BF5C01DCB9497F9AEBD /* Pods-RMPSecureAuth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMPSecureAuth_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C02193EED25116B67C64074FCA7501EE /* OIDExternalUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgent.h; path = Source/OIDExternalUserAgent.h; sourceTree = "<group>"; };
 		C085AD008BC9C2AA729B505C904D8408 /* Pods_RMPSecureAuth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RMPSecureAuth_Tests.framework; path = "Pods-RMPSecureAuth_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C6AA443EAD2100B0BAB4B854B23FD1 /* Pods-RMPSecureAuth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMPSecureAuth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C27CFC51019E43006F88DEE493BD0767 /* OIDAuthorizationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationService.h; path = Source/OIDAuthorizationService.h; sourceTree = "<group>"; };
-		C47ED5ECFB878F9162D4567B51D50230 /* RMPSecureAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMPSecureAuth-prefix.pch"; sourceTree = "<group>"; };
 		C74F1A63853029FC5186AC191B3EB93D /* OIDExternalUserAgentIOSCustomBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOSCustomBrowser.m; path = Source/iOS/OIDExternalUserAgentIOSCustomBrowser.m; sourceTree = "<group>"; };
 		C97BFF4BAAF6C6F4961B0604DF386E8B /* Pods-RMPSecureAuth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMPSecureAuth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA3E27C4A4B3B3AE3D7C2A01F3CBC776 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D07C06D6C34CAD6AF62C237C3C9813F4 /* AppAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-umbrella.h"; sourceTree = "<group>"; };
 		D7699EE79E63BEB8F51BA0753F2319F2 /* OIDIDToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDIDToken.h; path = Source/OIDIDToken.h; sourceTree = "<group>"; };
 		D7F455A4541DED34643CEFCC84F7FB73 /* OIDAuthState+IOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthState+IOS.h"; path = "Source/iOS/OIDAuthState+IOS.h"; sourceTree = "<group>"; };
 		DABB23067F52CB48C5C9223F1CDE2D07 /* OIDAuthorizationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationRequest.m; path = Source/OIDAuthorizationRequest.m; sourceTree = "<group>"; };
 		DD6E55CDE306CBFFAA7A748F342939AE /* AppAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppAuth-Info.plist"; sourceTree = "<group>"; };
-		DECFFD7A2009AA3505FFBEC804444E59 /* AppAuthStateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppAuthStateExtension.swift; path = RMPSecureAuth/Classes/AppAuthStateExtension.swift; sourceTree = "<group>"; };
 		DFE6D24EF48B47D5DBA451C791E39CE5 /* Pods-RMPSecureAuth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMPSecureAuth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E2BB31388EDA3685082F506BC76FEB28 /* OIDURLSessionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLSessionProvider.h; path = Source/OIDURLSessionProvider.h; sourceTree = "<group>"; };
 		E5E2F7C44419C056897C0FEE977FDD11 /* OIDRegistrationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationResponse.m; path = Source/OIDRegistrationResponse.m; sourceTree = "<group>"; };
@@ -223,39 +227,37 @@
 		EBBEA3AA2FC77BDA2524C96851EDB518 /* OIDErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDErrorUtilities.m; path = Source/OIDErrorUtilities.m; sourceTree = "<group>"; };
 		EBE0514C15378D80E75EB5ED85E13D41 /* OIDScopeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopeUtilities.h; path = Source/OIDScopeUtilities.h; sourceTree = "<group>"; };
 		EED1EE916A06D4254E34A42171556DD6 /* Pods-RMPSecureAuth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMPSecureAuth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFF38855AB3EAC0ED6D6B3E6C179D14D /* RMPSecureAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMPSecureAuth-dummy.m"; sourceTree = "<group>"; };
-		F08BFDDD57D523CFA615569A467D6622 /* RMPSecureAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMPSecureAuth.release.xcconfig; sourceTree = "<group>"; };
 		F2C076F1DD328FA00C31B08A17F22898 /* AppAuthCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuthCore.h; path = Source/AppAuthCore.h; sourceTree = "<group>"; };
 		F3F4DE8715DD9B3E232A40FFBA812C8E /* AppAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.release.xcconfig; sourceTree = "<group>"; };
-		F5044D46BBF8CDE8EE193AD1180DB4B8 /* RMPSecureAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMPSecureAuth-umbrella.h"; sourceTree = "<group>"; };
 		F819CB866D4692FB2FC69CA2A2B7BA8A /* Pods_RMPSecureAuth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RMPSecureAuth_Example.framework; path = "Pods-RMPSecureAuth_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2C5CB4CD632F75B4E1DA3427931F1C /* OIDTokenRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenRequest.m; path = Source/OIDTokenRequest.m; sourceTree = "<group>"; };
 		FCC3A1E74CA99131D46F430A6A25C58B /* OIDScopes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopes.h; path = Source/OIDScopes.h; sourceTree = "<group>"; };
+		FD39FBC38700CE525B44B8A93DD8905E /* RMPSecureAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMPSecureAuth.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		352922C6C1DE711A15CACD767C252B3E /* Frameworks */ = {
+		62A6030DC16CD34EE3EDC5D9838F5D73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C86659BF070CFF1A3AF55E08C9E03E6 /* Foundation.framework in Frameworks */,
+				FC7AE4361346350F2E9564FE010C14DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98120DDAC0539CA1B885770FE8A307FA /* Frameworks */ = {
+		7169304FE85207E01F225E0983185226 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600B346F9BE59660B5CF4DCB16247973 /* Foundation.framework in Frameworks */,
+				FD62BF20F8524A3745E8E1CC4612DD28 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAA48B6F12C291034D1CB0994D06F8E9 /* Frameworks */ = {
+		CFB76F46CAEE5F4EB6EB4C942F80E075 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F56207557EB63C0942D589BF5317FD /* AppAuth.framework in Frameworks */,
-				C1325F8E8BDB5E8542CCFBF51DB61BE4 /* Foundation.framework in Frameworks */,
+				FCAE456E1EA30124017A943CE599D58B /* AppAuth.framework in Frameworks */,
+				4A575FE66A9212E3CFD5DC8CF4321511 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,19 +280,6 @@
 				A00ED4CDFB41BFC1E0288D0EF7765372 /* Pods-RMPSecureAuth_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		19A7957FD01B8D4B189AA58556DA2971 /* RMPSecureAuth */ = {
-			isa = PBXGroup;
-			children = (
-				9EFF5541D05E8F78E73C2DF10E562F02 /* AppAuth.swift */,
-				B267EBA75BD73C17395EC2976303C67F /* AppAuthRequestExtensions.swift */,
-				DECFFD7A2009AA3505FFBEC804444E59 /* AppAuthStateExtension.swift */,
-				8C44F495F206DC677AABAB4BA891FFBD /* Pod */,
-				76AF7577C0FDD65F2400418DB2207384 /* Support Files */,
-			);
-			name = RMPSecureAuth;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		2A5BC96BE668BD99B0F1C51EEE678D7C /* Support Files */ = {
@@ -386,20 +375,22 @@
 			name = ExternalUserAgent;
 			sourceTree = "<group>";
 		};
-		52D36DB6A797C7E7C0E78EDEBA383B62 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19A7957FD01B8D4B189AA58556DA2971 /* RMPSecureAuth */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		5B16F2E290267706160CE602FAE8A0BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D7D74B5CEFDB933E476A03B0781A91AA /* AppAuth */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		60ED8F0670373F84D51D15A195A4C93D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E5A0B80485B8E54BB6319E2AB31026E /* LICENSE */,
+				8FE8C1651E0314219A5B6079EE01D02A /* README.md */,
+				4623B576EA4E1E34F57342979477E586 /* RMPSecureAuth.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		649D80D666E33BB9755FAEA189888B36 /* Pods-RMPSecureAuth_Example */ = {
@@ -428,29 +419,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		76AF7577C0FDD65F2400418DB2207384 /* Support Files */ = {
+		6E092BB2F1454CC47DD1E865D2C21D69 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				319DC0FFCFFAFCB86C9F9975AF896C89 /* RMPSecureAuth.modulemap */,
-				EFF38855AB3EAC0ED6D6B3E6C179D14D /* RMPSecureAuth-dummy.m */,
-				B5777C2054356D75F72CE8D17B0990FE /* RMPSecureAuth-Info.plist */,
-				C47ED5ECFB878F9162D4567B51D50230 /* RMPSecureAuth-prefix.pch */,
-				F5044D46BBF8CDE8EE193AD1180DB4B8 /* RMPSecureAuth-umbrella.h */,
-				2758A9550888D568F175F8653066D02C /* RMPSecureAuth.debug.xcconfig */,
-				F08BFDDD57D523CFA615569A467D6622 /* RMPSecureAuth.release.xcconfig */,
+				0C5A93BEF2AA152087E70EBCA9FB99DE /* RMPSecureAuth.modulemap */,
+				4B6EAEF32746FEDE2BDEDAABA15C4945 /* RMPSecureAuth-dummy.m */,
+				4EC8B513F926FBDE7D462BA15AC0B596 /* RMPSecureAuth-Info.plist */,
+				798512920CD4D0D2241AD6AB40BE7CBD /* RMPSecureAuth-prefix.pch */,
+				433D2ED7AFD621897656E7D1D559B943 /* RMPSecureAuth-umbrella.h */,
+				FD39FBC38700CE525B44B8A93DD8905E /* RMPSecureAuth.debug.xcconfig */,
+				8D2007A9DC81D9E8A7789B2BCB8231BA /* RMPSecureAuth.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RMPSecureAuth";
 			sourceTree = "<group>";
 		};
-		8C44F495F206DC677AABAB4BA891FFBD /* Pod */ = {
+		8D1D5A75FB4C19494FD4B719B997EA4D /* RMPSecureAuth */ = {
 			isa = PBXGroup;
 			children = (
-				CA3E27C4A4B3B3AE3D7C2A01F3CBC776 /* LICENSE */,
-				A770ABE76A8746A7FC8A1C5142741DA7 /* README.md */,
-				092E54B92323581B77E395980266DAEE /* RMPSecureAuth.podspec */,
+				A3551D4C5BC25114A30E4A0E87706B5E /* AppAuth.swift */,
+				A9076FBF75739AF22AF266BA8EB43EB1 /* AppAuthRequestExtensions.swift */,
+				5E2548A800D49843C5D2B5C7CD208175 /* AppAuthStateExtension.swift */,
+				1779DF63F17D1485ADD2317AAFFDF0FF /* RMPSecureAuth-Bridging-Header.h */,
+				60ED8F0670373F84D51D15A195A4C93D /* Pod */,
+				6E092BB2F1454CC47DD1E865D2C21D69 /* Support Files */,
 			);
-			name = Pod;
+			name = RMPSecureAuth;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A00ED4CDFB41BFC1E0288D0EF7765372 /* Pods-RMPSecureAuth_Tests */ = {
@@ -469,6 +464,14 @@
 			path = "Target Support Files/Pods-RMPSecureAuth_Tests";
 			sourceTree = "<group>";
 		};
+		AE28B538680D9A3B76D4FA61BAD8F25F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D5A75FB4C19494FD4B719B997EA4D /* RMPSecureAuth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		B918C04C34DA297B93343D9ECA49900E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,7 +485,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				52D36DB6A797C7E7C0E78EDEBA383B62 /* Development Pods */,
+				AE28B538680D9A3B76D4FA61BAD8F25F /* Development Pods */,
 				69300672FB41CCE9E80BCA2541DECF09 /* Frameworks */,
 				5B16F2E290267706160CE602FAE8A0BD /* Pods */,
 				EFFCA7F2DEFBFBD705165D0B15495C0E /* Products */,
@@ -559,27 +562,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76FBD7C85C482084F97406C66AF701BE /* Headers */ = {
+		8CD9D8EC1B9B6EB221DBACAF895D1C80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83065DBBC024097E74541CCC79F8EA90 /* Pods-RMPSecureAuth_Example-umbrella.h in Headers */,
+				BFC5742D26CAA64AAC711AD41A3BEA4F /* Pods-RMPSecureAuth_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F677C4B33DD98E65D34B1C30C53715B /* Headers */ = {
+		B39596FF7A7964F8460D12E0AEBF5B5D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ABFF4662121A2319FB1F16EC25E47BB /* RMPSecureAuth-umbrella.h in Headers */,
+				85E169B76B9CF71B8311653B779C0029 /* RMPSecureAuth-Bridging-Header.h in Headers */,
+				C7ABDA08C5B757EBAEFCF907BD892D79 /* RMPSecureAuth-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5D4329959CDCDBC5953CA900E98538A /* Headers */ = {
+		CC6497E92F163C90C87BDCE74B6DB3FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618A2A51CB1CC9E660C007C48E9C9164 /* Pods-RMPSecureAuth_Tests-umbrella.h in Headers */,
+				9262A822E89EDC599908A4A89568299A /* Pods-RMPSecureAuth_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,17 +592,17 @@
 /* Begin PBXNativeTarget section */
 		04434408F6EF22BCD54F63B02A2A7812 /* Pods-RMPSecureAuth_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A85A51AC58C6EEA43B33D9DFFD2451F /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Tests" */;
+			buildConfigurationList = 97D59EAA182B460AF15BFC4A0179FBF3 /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Tests" */;
 			buildPhases = (
-				D5D4329959CDCDBC5953CA900E98538A /* Headers */,
-				3F49F12D3FC54C31E761B6602A7639B2 /* Sources */,
-				352922C6C1DE711A15CACD767C252B3E /* Frameworks */,
-				1AEB7A7146CB496FD18995E6D2E6737F /* Resources */,
+				CC6497E92F163C90C87BDCE74B6DB3FB /* Headers */,
+				57789B0BE0B949BD43F18DA079F489ED /* Sources */,
+				62A6030DC16CD34EE3EDC5D9838F5D73 /* Frameworks */,
+				CAA53CC57B73DB0488B4F7CF9283C61B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8EA0C3781D3EA9FEC713DFC3C44D87E /* PBXTargetDependency */,
+				184C8E8F43F476B28580990BE2F9180A /* PBXTargetDependency */,
 			);
 			name = "Pods-RMPSecureAuth_Tests";
 			productName = "Pods-RMPSecureAuth_Tests";
@@ -607,18 +611,18 @@
 		};
 		23FD657FB199DF07EF8ED1A78BDC01A7 /* Pods-RMPSecureAuth_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBD451C61A39ED4B48814035CCE85BCE /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Example" */;
+			buildConfigurationList = 5DB1B397975A99738D8816C18D701BD1 /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Example" */;
 			buildPhases = (
-				76FBD7C85C482084F97406C66AF701BE /* Headers */,
-				453C0DD1CA1598CFB38DB974D904C16A /* Sources */,
-				98120DDAC0539CA1B885770FE8A307FA /* Frameworks */,
-				4B107DC55FF3C6529D50950AE34D5FEA /* Resources */,
+				8CD9D8EC1B9B6EB221DBACAF895D1C80 /* Headers */,
+				6D26503344A1E3497DF16D49D39356B9 /* Sources */,
+				7169304FE85207E01F225E0983185226 /* Frameworks */,
+				81D6922B1FDFAE1F8CF38B9CD7F30737 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90677DBE53F8773258B9E0F2357B39AF /* PBXTargetDependency */,
-				14A8B44733ADDCF013A5EC4C73BE7A9F /* PBXTargetDependency */,
+				530C494E0ACA0DAB1917571B9BCA9DBE /* PBXTargetDependency */,
+				13029BF4D73B16360212B657EC65789F /* PBXTargetDependency */,
 			);
 			name = "Pods-RMPSecureAuth_Example";
 			productName = "Pods-RMPSecureAuth_Example";
@@ -627,17 +631,17 @@
 		};
 		4602F35D67E656C108D7F3FF77F512F6 /* RMPSecureAuth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F437771A5BB13AF00E167B1C3D092F5 /* Build configuration list for PBXNativeTarget "RMPSecureAuth" */;
+			buildConfigurationList = 1D5F9578731572830E2FBFFD683C130C /* Build configuration list for PBXNativeTarget "RMPSecureAuth" */;
 			buildPhases = (
-				8F677C4B33DD98E65D34B1C30C53715B /* Headers */,
-				E649E2884A7C6EC39A477498FD0D7CBA /* Sources */,
-				EAA48B6F12C291034D1CB0994D06F8E9 /* Frameworks */,
-				1371480E7A1A73100B3ACCAB6E50CA20 /* Resources */,
+				B39596FF7A7964F8460D12E0AEBF5B5D /* Headers */,
+				587368B97B33CF0651777C5C659FD38C /* Sources */,
+				CFB76F46CAEE5F4EB6EB4C942F80E075 /* Frameworks */,
+				C770613280B6EEA1785D2741B2BD27A2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE99AB387EEC6662B9B5F24B2F3F8D8C /* PBXTargetDependency */,
+				B43BF3BD670880EDF0C4AE12F8B6B5FC /* PBXTargetDependency */,
 			);
 			name = RMPSecureAuth;
 			productName = RMPSecureAuth;
@@ -693,20 +697,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1371480E7A1A73100B3ACCAB6E50CA20 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1AEB7A7146CB496FD18995E6D2E6737F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1CF89CCCBC2D4E6CA6C8F53796F6BF53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -714,7 +704,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B107DC55FF3C6529D50950AE34D5FEA /* Resources */ = {
+		81D6922B1FDFAE1F8CF38B9CD7F30737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770613280B6EEA1785D2741B2BD27A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA53CC57B73DB0488B4F7CF9283C61B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -724,19 +728,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F49F12D3FC54C31E761B6602A7639B2 /* Sources */ = {
+		57789B0BE0B949BD43F18DA079F489ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B6125716133896D8B38FFBA3F58D13 /* Pods-RMPSecureAuth_Tests-dummy.m in Sources */,
+				F458E0C4687491A3E390D151EA491D20 /* Pods-RMPSecureAuth_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		453C0DD1CA1598CFB38DB974D904C16A /* Sources */ = {
+		587368B97B33CF0651777C5C659FD38C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561967B3997BAB9F3069E8716C61DF0D /* Pods-RMPSecureAuth_Example-dummy.m in Sources */,
+				F2992F4A312C837AD4B484CAC8AACB5D /* AppAuth.swift in Sources */,
+				E3B3C46356CAE2C68C2727368C49748C /* AppAuthRequestExtensions.swift in Sources */,
+				B5906A99F642E6D88E1EA20630CA86F4 /* AppAuthStateExtension.swift in Sources */,
+				59679398C8A2D18C9BD06DEAF29C1ACE /* RMPSecureAuth-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,48 +783,144 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E649E2884A7C6EC39A477498FD0D7CBA /* Sources */ = {
+		6D26503344A1E3497DF16D49D39356B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F309C488AFC75DA6D5BF0FF2AB5C25 /* AppAuth.swift in Sources */,
-				16D4209F73BE754B6927EA7F3ED1C4EB /* AppAuthRequestExtensions.swift in Sources */,
-				871AF7387A91A331561DE494ACD881AF /* AppAuthStateExtension.swift in Sources */,
-				873ECE38898B18BE39AF0EBF8A6F8D7A /* RMPSecureAuth-dummy.m in Sources */,
+				E69B2B3C0612355D63C125A2ADB0E80B /* Pods-RMPSecureAuth_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14A8B44733ADDCF013A5EC4C73BE7A9F /* PBXTargetDependency */ = {
+		13029BF4D73B16360212B657EC65789F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RMPSecureAuth;
 			target = 4602F35D67E656C108D7F3FF77F512F6 /* RMPSecureAuth */;
-			targetProxy = B5E3D7E016769D2863C08D32C4819F26 /* PBXContainerItemProxy */;
+			targetProxy = 79C34C817D8D6ED8EFE35C2C1EEE1250 /* PBXContainerItemProxy */;
 		};
-		90677DBE53F8773258B9E0F2357B39AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AppAuth;
-			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
-			targetProxy = BDC57F9DCC0DAEE5D47660F1B064886A /* PBXContainerItemProxy */;
-		};
-		E8EA0C3781D3EA9FEC713DFC3C44D87E /* PBXTargetDependency */ = {
+		184C8E8F43F476B28580990BE2F9180A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RMPSecureAuth_Example";
 			target = 23FD657FB199DF07EF8ED1A78BDC01A7 /* Pods-RMPSecureAuth_Example */;
-			targetProxy = C76985F28A131BD6552E038779B6CF9B /* PBXContainerItemProxy */;
+			targetProxy = EB45FE7F38C15843482E1F29ECAF8A8D /* PBXContainerItemProxy */;
 		};
-		FE99AB387EEC6662B9B5F24B2F3F8D8C /* PBXTargetDependency */ = {
+		530C494E0ACA0DAB1917571B9BCA9DBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AppAuth;
 			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
-			targetProxy = BEBD0198AAABF143831F99A3EF0941A8 /* PBXContainerItemProxy */;
+			targetProxy = 95CD63EEE3D44EB06A4AEA361542DA5C /* PBXContainerItemProxy */;
+		};
+		B43BF3BD670880EDF0C4AE12F8B6B5FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppAuth;
+			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
+			targetProxy = 33C2C583736F9DE688F01EBB7CC12744 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C4147794E8A79503D79B9F580281E92 /* Debug */ = {
+		2ED3A7C695702F4A250F8E94DD46E339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C29BE26504D13248965484A17D1D10 /* Pods-RMPSecureAuth_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44107983D6F7A3AE569FBD1322C9E989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2007A9DC81D9E8A7789B2BCB8231BA /* RMPSecureAuth.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMPSecureAuth/RMPSecureAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMPSecureAuth/RMPSecureAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMPSecureAuth/RMPSecureAuth.modulemap";
+				PRODUCT_MODULE_NAME = RMPSecureAuth;
+				PRODUCT_NAME = RMPSecureAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DDC878DBF1F59545B24CDA73E44B30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1777C900901208C1AA1B40E7B79036 /* Pods-RMPSecureAuth_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E573FD74E12499EA3B88D18FDB22F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EED1EE916A06D4254E34A42171556DD6 /* Pods-RMPSecureAuth_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -880,40 +983,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9C7DAEBDB515978AB56F609ECAA680C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18C29BE26504D13248965484A17D1D10 /* Pods-RMPSecureAuth_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1039,10 +1108,11 @@
 			};
 			name = Debug;
 		};
-		BA28241049B31E1FB9A7237A2B96AA2D /* Release */ = {
+		BB25BB3C5C01F1BE0280F43189E516FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F08BFDDD57D523CFA615569A467D6622 /* RMPSecureAuth.release.xcconfig */;
+			baseConfigurationReference = DFE6D24EF48B47D5DBA451C791E39CE5 /* Pods-RMPSecureAuth_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1052,18 +1122,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RMPSecureAuth/RMPSecureAuth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RMPSecureAuth/RMPSecureAuth-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMPSecureAuth_Tests/Pods-RMPSecureAuth_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RMPSecureAuth/RMPSecureAuth.modulemap";
-				PRODUCT_MODULE_NAME = RMPSecureAuth;
-				PRODUCT_NAME = RMPSecureAuth;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMPSecureAuth_Tests/Pods-RMPSecureAuth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1103,9 +1174,9 @@
 			};
 			name = Release;
 		};
-		DA24903545DD87AECE8EA1F5106C4691 /* Debug */ = {
+		F678C02F0C5A3490797081ACA78C0EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2758A9550888D568F175F8653066D02C /* RMPSecureAuth.debug.xcconfig */;
+			baseConfigurationReference = FD39FBC38700CE525B44B8A93DD8905E /* RMPSecureAuth.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1119,7 +1190,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RMPSecureAuth/RMPSecureAuth-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RMPSecureAuth/RMPSecureAuth-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RMPSecureAuth/RMPSecureAuth.modulemap";
 				PRODUCT_MODULE_NAME = RMPSecureAuth;
@@ -1127,83 +1198,25 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		DED36804CE0AC5136E48BF04F819BF81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A1777C900901208C1AA1B40E7B79036 /* Pods-RMPSecureAuth_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RMPSecureAuth_Example/Pods-RMPSecureAuth_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FEE88AA8054A086808A0E697356F616F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE6D24EF48B47D5DBA451C791E39CE5 /* Pods-RMPSecureAuth_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RMPSecureAuth_Tests/Pods-RMPSecureAuth_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RMPSecureAuth_Tests/Pods-RMPSecureAuth_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D5F9578731572830E2FBFFD683C130C /* Build configuration list for PBXNativeTarget "RMPSecureAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F678C02F0C5A3490797081ACA78C0EAC /* Debug */,
+				44107983D6F7A3AE569FBD1322C9E989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		32299C4D6274BAF54FE4C4F2F9C51D1E /* Build configuration list for PBXNativeTarget "AppAuth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1222,29 +1235,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F437771A5BB13AF00E167B1C3D092F5 /* Build configuration list for PBXNativeTarget "RMPSecureAuth" */ = {
+		5DB1B397975A99738D8816C18D701BD1 /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA24903545DD87AECE8EA1F5106C4691 /* Debug */,
-				BA28241049B31E1FB9A7237A2B96AA2D /* Release */,
+				4DDC878DBF1F59545B24CDA73E44B30C /* Debug */,
+				2ED3A7C695702F4A250F8E94DD46E339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A85A51AC58C6EEA43B33D9DFFD2451F /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Tests" */ = {
+		97D59EAA182B460AF15BFC4A0179FBF3 /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C4147794E8A79503D79B9F580281E92 /* Debug */,
-				FEE88AA8054A086808A0E697356F616F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBD451C61A39ED4B48814035CCE85BCE /* Build configuration list for PBXNativeTarget "Pods-RMPSecureAuth_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DED36804CE0AC5136E48BF04F819BF81 /* Debug */,
-				9C7DAEBDB515978AB56F609ECAA680C4 /* Release */,
+				4E573FD74E12499EA3B88D18FDB22F92 /* Debug */,
+				BB25BB3C5C01F1BE0280F43189E516FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

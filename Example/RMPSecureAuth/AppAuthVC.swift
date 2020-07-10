@@ -11,7 +11,7 @@ import RMPSecureAuth
 import AppAuth
 
 //=============================================
-//MARK: RekutenKiba Key for AppAuth(OAuth 2.0)
+//MARK: Key for AppAuth(OAuth 2.0)
 //=============================================
 let clientID                   = ""
 let clientSecret               = ""
@@ -50,26 +50,25 @@ class AppAuthVC: UIViewController {
 //==============================
 extension AppAuthVC {
     @IBAction func signInAction(_ sender: Any) {
-//        appDelegate.app?.signIn(self, { (bool) in
-//            if bool {
-//                self.lblToken.text = "Login Sucessfully"
-//            }
-//        }) { (session)   in
-//              appDelegate.currentAuthorizationFlow = session
-//            }
-//            { (statusCode,error)
-//                print(statusCode,error)
-//        }
+        appDelegate.app?.signIn(self, { (bool) in
+            if bool {
+                self.lblToken.text = "Login Sucessfully"
+            }
+        }, { (session) in
+            appDelegate.currentAuthorizationFlow = session
+        }, { (statusCode,error) in
+            print(statusCode,error)
+        })
     }
     
     @IBAction func signOutAction(_ sender: Any) {
-//        appDelegate.app?.signOut({ (bool) in
-//            if bool {
-//                self.lblToken.text = "LogOut Sucessfully"
-//            }
-//        }) { (statusCode,error)
-//              print(statusCode,error)
-//        }
+        appDelegate.app?.signOut({ (bool) in
+            if bool {
+                self.lblToken.text = "LogOut Sucessfully"
+            }
+        }, { (statusCode,error) in
+              print(statusCode,error)
+        })
     }
     
     @IBAction func refreshTokenAction(_ sender: Any) {

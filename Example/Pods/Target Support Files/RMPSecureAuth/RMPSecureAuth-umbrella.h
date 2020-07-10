@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RMPSecureAuth-Bridging-Header.h"
 
 FOUNDATION_EXPORT double RMPSecureAuthVersionNumber;
 FOUNDATION_EXPORT const unsigned char RMPSecureAuthVersionString[];
