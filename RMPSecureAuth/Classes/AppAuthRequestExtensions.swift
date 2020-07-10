@@ -107,9 +107,12 @@ extension AppAuth {
         })
     }
     
-    public func getRefreshToken() -> String? {
+    // get error in second parameter if we get error
+    public func getRefreshToken() -> (String?,String?) {
         let userinfoEndpoint = URL(string: user_info_endpoint_uri!)!
         var token: String?
+        var errorStr: String?
+        
         AppAuth.authState?.performAction() { (accessToken, idToken, error) in
             
             if error != nil  {
@@ -121,14 +124,16 @@ extension AppAuth {
                 return
             }
             
-            token = accessToken
+            token    = accessToken
+            errorStr = error?.localizedDescription ?? "Unknown error"
+            
             // Add Bearer token to request
             var urlRequest = URLRequest(url: userinfoEndpoint)
             urlRequest.allHTTPHeaderFields = ["Authorization": "Bearer \(accessToken)"]
             // Perform request...
         }
         
-        return token
+        return (token,errorStr)
     }
     
     /*

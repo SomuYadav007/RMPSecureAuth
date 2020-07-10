@@ -13,17 +13,17 @@ import AppAuth
 //=============================================
 //MARK: RekutenKiba Key for AppAuth(OAuth 2.0)
 //=============================================
-let clientID                   = "gateway"
+let clientID                   = ""
 let clientSecret               = ""
-let redirectURI                =  "net.openid.appauthdemo:/oauth2redirect"
-let authorization_scope        = "openid email profile"
-let registration_endpoint_uri  = "https://stg-fos.rmb-ss.jp/kibadev/auth/realms/Rakuten-OSS-Stg/clients-registrations/openid-connect"
-let user_info_endpoint_uri     = "https://stg-fos.rmb-ss.jp/kibadev/auth/realms/Rakuten-OSS-Stg/protocol/openid-connect/userinfo"
+let redirectURI                = ""
+let authorization_scope        = ""
+let registration_endpoint_uri  = ""
+let user_info_endpoint_uri     = ""
 
-let issuer                     = URL(string: "https://stg-fos.rmb-ss.jp/auth/realms/Rakuten-OSS-Stg")!
-let authorizationEndpoint      = URL(string: "https://stg-fos.rmb-ss.jp/kibadev/auth/realms/Rakuten-OSS-Stg/protocol/openid-connect/auth")!
-let tokenEndpoint              = URL(string: "https://stg-fos.rmb-ss.jp/kibadev/auth/realms/Rakuten-OSS-Stg/protocol/openid-connect/token")!
-let endSessionPointsURL        = "https://stg-fos.rmb-ss.jp/auth/realms/Rakuten-OSS-Stg/protocol/openid-connect/logout?id_token="
+let issuer                     = URL(string: "")!
+let authorizationEndpoint      = URL(string: "")!
+let tokenEndpoint              = URL(string: "")!
+let endSessionPointsURL        = ""
 let appDelegate                = UIApplication.shared.delegate as! AppDelegate
 
 class AppAuthVC: UIViewController {
@@ -50,21 +50,26 @@ class AppAuthVC: UIViewController {
 //==============================
 extension AppAuthVC {
     @IBAction func signInAction(_ sender: Any) {
-        appDelegate.app?.signIn(self, { (bool) in
-            if bool {
-                self.lblToken.text = "Login Sucessfully"
-            }
-        }) { (session) in
-            appDelegate.currentAuthorizationFlow = session
-        }
+//        appDelegate.app?.signIn(self, { (bool) in
+//            if bool {
+//                self.lblToken.text = "Login Sucessfully"
+//            }
+//        }) { (session)   in
+//              appDelegate.currentAuthorizationFlow = session
+//            }
+//            { (statusCode,error)
+//                print(statusCode,error)
+//        }
     }
     
     @IBAction func signOutAction(_ sender: Any) {
-        appDelegate.app?.signOut({ (bool) in
-            if bool {
-                self.lblToken.text = "LogOut Sucessfully"
-            }
-        })
+//        appDelegate.app?.signOut({ (bool) in
+//            if bool {
+//                self.lblToken.text = "LogOut Sucessfully"
+//            }
+//        }) { (statusCode,error)
+//              print(statusCode,error)
+//        }
     }
     
     @IBAction func refreshTokenAction(_ sender: Any) {

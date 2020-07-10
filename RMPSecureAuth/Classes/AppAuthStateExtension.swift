@@ -117,7 +117,7 @@ extension AppAuth {
      - Parameter configuration: Ready to go OIDServiceConfiguration object populated with the OP's endpoints
      - Parameter completion: (Optional) Completion handler to execute after successful authorization.
      */
-    func authorizeRp(_ VC: UIViewController,issuerUrl: String?, configuration: OIDServiceConfiguration?, completion: ((Bool) -> Void)? = nil,_ currentAuthorizationFlow: @escaping completionAuthorizationFlow) {
+    func authorizeRp(_ VC: UIViewController,issuerUrl: String?, configuration: OIDServiceConfiguration?, completion: ((Bool) -> Void)? = nil,_ currentAuthorizationFlow: @escaping completionAuthorizationFlow,_ status: @escaping completionHandlerStatusCode) {
         /*
          * Performs authorization with an OIDC Provider configuration.
          
@@ -151,6 +151,8 @@ extension AppAuth {
                     }
                     self.setAuthState(nil)
                 }
+                
+                status(nil,error?.localizedDescription ?? "")
             }
         }
         
@@ -168,8 +170,8 @@ extension AppAuth {
      * Responds to the UI and initiates the authorization flow.
      *
      */
-    public func signIn(_ VC: UIViewController,_ callBack: @escaping completionHandler,_ currentAuthorizationFlow: @escaping completionAuthorizationFlow) {
-        authorizeRp(VC,issuerUrl: issuer!.absoluteString, configuration: configuration,completion: {callBack($0)}, currentAuthorizationFlow)
+    public func signIn(_ VC: UIViewController,_ callBack: @escaping completionHandler,_ currentAuthorizationFlow: @escaping completionAuthorizationFlow,_ status: @escaping completionHandlerStatusCode) {
+        authorizeRp(VC,issuerUrl: issuer!.absoluteString, configuration: configuration,completion: {callBack($0)}, currentAuthorizationFlow,status)
     }
     
     /*
@@ -178,7 +180,7 @@ extension AppAuth {
      * Resets the authorization state and signs out from the OIDC Provider using its [RP-initiated logout](https://openid.net/specs/openid-connect-session-1_0.html#RPLogout) `end_session_endpoint`.
      *
      */
-    public func signOut(_ callBack: @escaping completionHandler) {
+    public func signOut(_ callBack: @escaping completionHandler,_ statusCode: @escaping completionHandlerStatusCode) {
       
         
         if let idToken = AppAuth.authState?.lastTokenResponse?.idToken {
@@ -194,6 +196,12 @@ extension AppAuth {
                 self.sendUrlRequest(urlRequest: urlRequest) {
                     data, response, request in
                     
+                    var strData: String?
+                    
+                    if data != nil {
+                       strData = (String(describing: String(data: data!, encoding: .utf8)))
+                    }
+                    
                     if !(200...299).contains(response.statusCode) {
                         // Handling server errors
                         print("RP-initiated logout HTTP response code: \(response.statusCode)")
@@ -203,6 +211,8 @@ extension AppAuth {
                         self.setAuthState(nil)
                         callBack(true)
                     }
+                    
+                    statusCode(response.statusCode,"\(response.description), Log Out Response:  \(strData ?? "")")
                     
                     if data != nil, data!.count > 0 {
                         // Handling RP-initiated logout errors

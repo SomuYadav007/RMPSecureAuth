@@ -33,6 +33,7 @@ open class AppAuth: NSObject {
     // @typealias closure
     public typealias completionHandler = (_ Success: Bool) -> Void
     public typealias completionAuthorizationFlow = (OIDExternalUserAgentSession) -> Void
+    public typealias completionHandlerStatusCode = (_ statusCode: Int?,_ desc: String) -> Void
     
     public init(_ clientID: String,_ clientSecret: String,_ redirectURI: String,_ authorization_scope: String,_ registration_endpoint_uri: String,_ user_info_endpoint_uri: String,_ issuer: URL,_ authorizationEndpoint: URL,_ tokenEndpoint: URL,_ endSessionPointsURL: String) {
         self.clientID                  = clientID

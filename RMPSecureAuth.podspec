@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RMPSecureAuth'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'AppAuth Extension According Authentication Requirements.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/somuyadav007/RMPSecureAuth'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'somuyadav007' => 'somu.yadav@innoeye.com' }
+  s.author           = { 'Somu Yadav' => 'somendra.sy@gmail.com' }
   s.source           = { :git => 'https://github.com/somuyadav007/RMPSecureAuth.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
