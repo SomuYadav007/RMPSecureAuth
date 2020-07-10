@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+`iOS 9.0 or later`
+`Swift 4.2`
 
 ## Installation
 
@@ -22,7 +24,7 @@ pod 'RMPSecureAuth'
 
 ## Author
 
-somuyadav007, somu.yadav@innoeye.com
+Somu Yadav, Somendra.sy@gmail.com
 
 ## License
 
