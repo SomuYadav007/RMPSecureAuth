@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/RMPSecureAuth.svg?style=flat)](https://cocoapods.org/pods/RMPSecureAuth)
 [![Platform](https://img.shields.io/cocoapods/p/RMPSecureAuth.svg?style=flat)](https://cocoapods.org/pods/RMPSecureAuth)
 
+`RMPSecureAuth` is a `AppAuth` extension framework, which is using to reduce the appauth code,Directly providing the short method of Sign-in and Sign-Out, No need to manage authetication code which is directly managing by `AppAuth` framework.Some Features of `RMPSecureAuth`:
+     
+ 1. You can directly access Sign-in and Sign-Out methods.
+ 2. You can access refresh token with AppAuth State.
+ 3. You can get refresh token by Api Call and can access api by app auth state.
+ 4. This RMPSecureAuth will manage your AppAuth state, save and remove your token.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -23,13 +30,13 @@ pod 'RMPSecureAuth', '~> 0.1.2'
 ```
 ## Usage
 
-import framework AppauthWrapper and write this code in AppDelegate
+import framework RMPSecureAuth and write this code in AppDelegate
 
 ```swift
-import AppauthWrapper
+import RMPSecureAuth
 import AppAuth
 
- /*   ************ AppauthWrapper ********** AppAuth **************
+ /*   ************ RMPSecureAuth ********** AppAuth **************
   *
   * Your App has check current autherization session
   *
