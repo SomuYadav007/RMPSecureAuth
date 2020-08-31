@@ -121,7 +121,7 @@ AppAuth.authState?.lastTokenResponse?.refreshToken
 AppAuth.authState?.lastTokenResponse?.accessToken
 ```
 
-Refernces:
+Reference:
 
 https://github.com/openid/AppAuth-iOS.
 
