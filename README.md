@@ -36,21 +36,10 @@ import framework RMPSecureAuth and write this code in AppDelegate
 import RMPSecureAuth
 import AppAuth
 
- /*   ************ RMPSecureAuth ********** AppAuth **************
-  *
-  * Your App has check current autherization session
-  *
-  * Set current autherization session in didFinishLaunching method
-  *
-  */
+ 
   var currentAuthorizationFlow: OIDExternalUserAgentSession?
   var objAppAuth: AppAuth?
- 
-  //MARK: CurrentAutherization Flow
-  /*
-   * Sends the URL to the current authorization flow (if any) which will
-   *
-   */
+
    func application(_ app: UIApplication,
                      open url: URL,
                      options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
