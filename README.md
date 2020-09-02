@@ -26,7 +26,7 @@ RMPSecureAuth is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RMPSecureAuth', '~> 0.1.2'
+pod 'RMPSecureAuth', '~> 0.1.4'
 ```
 ## Usage
 
