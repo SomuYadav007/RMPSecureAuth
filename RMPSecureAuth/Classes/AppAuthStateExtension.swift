@@ -33,8 +33,6 @@ extension AppAuth {
         
         UserDefaults.standard.set(data, forKey: authStateKey)
         UserDefaults.standard.synchronize()
-        
-        print("Authorization state has been saved.")
     }
     
     /*
@@ -82,8 +80,6 @@ extension AppAuth {
         }
         
         if let authState = authState {
-            print("Authorization state has been loaded.")
-            
             self.setAuthState(authState)
         }
     }
@@ -94,13 +90,13 @@ extension AppAuth {
      *
      */
     public func showState() {
-        print("Current authorization state: ")
-        
-        print("Access token: \(AppAuth.authState?.lastTokenResponse?.accessToken ?? "none")")
-        
-        print("ID token: \(AppAuth.authState?.lastTokenResponse?.idToken ?? "none")")
-        
-        print("Expiration date: \(String(describing: AppAuth.authState?.lastTokenResponse?.accessTokenExpirationDate))")
+//        print("Current authorization state: ")
+//
+//        print("Access token: \(AppAuth.authState?.lastTokenResponse?.accessToken ?? "none")")
+//
+//        print("ID token: \(AppAuth.authState?.lastTokenResponse?.idToken ?? "none")")
+//
+//        print("Expiration date: \(String(describing: AppAuth.authState?.lastTokenResponse?.accessTokenExpirationDate))")
     }
 }
 
@@ -126,8 +122,6 @@ extension AppAuth {
          - Parameter configuration: Ready to go OIDServiceConfiguration object populated with the OP's endpoints
          */
         func authorize(configuration: OIDServiceConfiguration) {
-            print("Authorizing with configuration: \(configuration)")
-            
             self.authorizeWithAutoCodeExchange(VC, currentAuthorizationFlow,
                 configuration: configuration,
                 clientId: clientID!,
@@ -137,7 +131,6 @@ extension AppAuth {
                 
                 if let authState = authState {
                     self.setAuthState(authState)
-                    print("Successful authorization.")
                     
                     self.showState()
                     
@@ -145,7 +138,6 @@ extension AppAuth {
                         completion(true)
                     }
                 } else {
-                    print("Authorization error: \(error?.localizedDescription ?? "")")
                     if let completion = completion {
                         completion(false)
                     }
@@ -204,7 +196,6 @@ extension AppAuth {
                     
                     if !(200...299).contains(response.statusCode) {
                         // Handling server errors
-                        print("RP-initiated logout HTTP response code: \(response.statusCode)")
                         callBack(false)
                     } else {
                         // Clearing the authorization state
@@ -216,7 +207,6 @@ extension AppAuth {
                     
                     if data != nil, data!.count > 0 {
                         // Handling RP-initiated logout errors
-                        print("RP-initiated logout response: \(String(describing: String(data: data!, encoding: .utf8)))")
                     }
                 }
             }
@@ -235,7 +225,6 @@ extension AppAuth: OIDAuthStateChangeDelegate {
      *
      */
     public func didChange(_ state: OIDAuthState) {
-        print("Authorization state change event.")
         self.stateChanged()
     }
 }

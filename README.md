@@ -100,7 +100,7 @@ Sign-In:
  }, { (session) in
   appDelegate.currentAuthorizationFlow = session
  }, { (statusCode,error) in
-            print(statusCode ?? 0,error)
+            
  })
 
 ```
@@ -111,7 +111,7 @@ appDelegate.app?.signOut({ (bool) in
     
   }
 }, { (statusCode,error) in
-    print(statusCode ?? 0,error)
+    
 })
 ```
 

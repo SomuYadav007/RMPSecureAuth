@@ -57,7 +57,7 @@ extension AppAuthVC {
         }, { (session) in
             appDelegate.currentAuthorizationFlow = session
         }, { (statusCode,error) in
-            print(statusCode,error)
+            
         })
     }
     
@@ -67,12 +67,12 @@ extension AppAuthVC {
                 self.lblToken.text = "LogOut Sucessfully"
             }
         }, { (statusCode,error) in
-              print(statusCode,error)
+
         })
     }
     
     @IBAction func refreshTokenAction(_ sender: Any) {
-        //self.lblToken.text = appDelegate.app?.
+       
     }
 }
 

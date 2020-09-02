@@ -18,7 +18,6 @@ extension AppAuth {
         // discovers endpoints
         OIDAuthorizationService.discoverConfiguration(forIssuer: issuer!) { configuration, error in
             guard let _ = configuration else {
-                print("Error retrieving discovery document: \(error?.localizedDescription ?? "Unknown error")")
                 return
             }
             
@@ -38,17 +37,11 @@ extension AppAuth {
                                               additionalParameters: nil)
         
         // performs authentication request
-        print("Initiating authorization request with scope: \(request.scope ?? "nil")")
-        
         let AuthFlow =
             OIDAuthState.authState(byPresenting: request, presenting: VC) { authState, error in
                 if let authState = authState {
                     //self.setAuthState(authState)
-                    print("Got authorization tokens. Access token: " +
-                        "\(authState.lastTokenResponse?.accessToken ?? "nil")")
                 } else {
-                    print("Authorization error: \(error?.localizedDescription ?? "Unknown error")")
-                    //self.setAuthState(nil)
             }
         }
         currentAuthorizationFlow(AuthFlow)
@@ -74,8 +67,6 @@ extension AppAuth {
         
         // Checking if the redirection URL can be constructed.
         guard let redirectURI = URL(string: redirectionUri) else {
-            print("Error creating redirection URL for : \(redirectionUri)")
-            
             return
         }
 
@@ -89,17 +80,13 @@ extension AppAuth {
                                               additionalParameters: nil)
         
         // Making authorization request.
-        print("Initiating authorization request with scopes: \(request.scope ?? "no scope requested")")
         
         currentAuthorizationFlow(OIDAuthState.authState(byPresenting: request, presenting: VC) {
             authState, error in
             
             if let authState = authState {
                 self.setAuthState(authState)
-                print("Got authorization tokens. Access token: " +
-                    "\(authState.lastTokenResponse?.accessToken ?? "nil")")
             } else {
-                print("Authorization error: \(error?.localizedDescription ?? "Unknown error")")
                 self.setAuthState(nil)
             }
             
@@ -116,7 +103,6 @@ extension AppAuth {
         AppAuth.authState?.performAction() { (accessToken, idToken, error) in
             
             if error != nil  {
-                print("Error fetching fresh tokens: \(error?.localizedDescription ?? "Unknown error")")
                 return
             }
             
@@ -151,15 +137,11 @@ extension AppAuth {
             DispatchQueue.main.async {
                 guard error == nil else {
                     // Handling transport error
-                    print("HTTP request failed \(error?.localizedDescription ?? "")")
-                    
                     return
                 }
                 
                 guard let response = response as? HTTPURLResponse else {
-                    // Expecting HTTP response
-                    print("Non-HTTP response")
-                    
+                    // Expecting HTTP response                    
                     return
                 }
                 
