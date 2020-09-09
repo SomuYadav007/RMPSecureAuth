@@ -31,8 +31,7 @@ extension AppAuth {
             }
         }
         
-        UserDefaults.standard.set(data, forKey: authStateKey)
-        UserDefaults.standard.synchronize()
+        KeyChain.save(key: authStateKey, data: data!)
     }
     
     /*
@@ -67,7 +66,9 @@ extension AppAuth {
      *
      */
     public func loadState() {
-        guard let data = UserDefaults.standard.object(forKey: authStateKey) as? Data else {
+        
+        
+        guard let data = KeyChain.retrieve(key: authStateKey) else {
             return
         }
         

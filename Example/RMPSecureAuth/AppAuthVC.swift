@@ -10,22 +10,6 @@ import UIKit
 import RMPSecureAuth
 import AppAuth
 
-//=============================================
-//MARK: Key for AppAuth(OAuth 2.0)
-//=============================================
-let clientID                   = ""
-let clientSecret               = ""
-let redirectURI                = ""
-let authorization_scope        = ""
-let registration_endpoint_uri  = ""
-let user_info_endpoint_uri     = ""
-
-let issuer                     = URL(string: "")!
-let authorizationEndpoint      = URL(string: "")!
-let tokenEndpoint              = URL(string: "")!
-let endSessionPointsURL        = ""
-let appDelegate                = UIApplication.shared.delegate as! AppDelegate
-
 class AppAuthVC: UIViewController {
 
     //==============================
